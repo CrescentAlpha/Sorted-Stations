@@ -67,9 +67,13 @@ To customize sorting options:
 
 ## Multiplayer & Dedicated Server
 
-- **Client-Side Safe**: All sorting operations only reorder local display lists on the client.
-- It does **not** alter game state, network replication, or vehicle automation routes.
-- Safe to use on any multiplayer session or Dedicated Server even if the host/server does not have the mod installed.
+- **Sorting Features (v1.0.0)**:
+  - **Client-Side Safe**: All sorting operations only reorder local display lists on the client.
+  - Does **not** alter game state, network replication, or vehicle automation routes.
+  - Safe to use on any multiplayer session or Dedicated Server, even if the host/server does not have the mod installed.
+- **Remote Renaming & Editing (v1.0.1+ Roadmap)**:
+  - **Host / Single-Player**: Renaming and color changes performed by the host (or in single-player) take effect immediately and replicate to all players normally.
+  - **Guest Clients**: Because station names require server-side authority, edits made by guest clients will not synchronize to the server/other players without dedicated server-side RPCs. (Recommended for Single-Player or Server Host).
 
 ---
 
