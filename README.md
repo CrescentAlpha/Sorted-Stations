@@ -73,6 +73,30 @@ To customize sorting options:
 
 ---
 
+## Planned Features (Roadmap / Next: v1.0.1+)
+
+The following features are planned for future updates. Specific features and implementation scope will be determined incrementally starting from v1.0.1:
+
+- **Remote Renaming from Map Menu**:
+  - Adds an edit (pencil) icon to each item in the in-game Map left-hand list.
+  - Clicking the button opens a lightweight, dedicated rename dialog to rename stations and vehicles remotely and safely.
+  - **Supported Objects**:
+    - Train Stations & Trains / Locomotives
+    - Drone Stations & Drones
+    - Truck / Tractor Stations (Docking Stations)
+    - All named vehicles (Tractors, Trucks, Explorers, Cyber Wagons)
+- **Instant Auto Re-Sorting**:
+  - Immediately re-sorts the Map list in real-time according to the active sort mode (Unicode / Natural) as soon as an object is renamed.
+- **Custom Prefix / Tag Insertion**:
+  - User-configurable tag buttons (e.g., `[IN]`, `[OUT]`, `[IRON]`, `[HUB]`) in the rename dialog.
+  - Clicking a tag button inserts the text directly at the current cursor position in the name input field.
+- **Marker Color Customization**:
+  - Allows selecting and changing marker colors directly from the rename dialog for all customizable station and vehicle icons.
+- **Single-Player / Host Focused**:
+  - Designed safely for local and single-player environments without complex server RPC overhead.
+
+---
+
 ## Requirements
 
 - **Satisfactory**: Update 1.2+ (CL#491125 or newer)
