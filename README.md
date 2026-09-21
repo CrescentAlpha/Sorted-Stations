@@ -62,6 +62,9 @@ To customize sorting options:
   - **Client-Side Safe**: All sorting operations only reorder local display lists on the client.
   - Does **not** alter game state, network replication, or vehicle automation routes.
   - Safe to use on any multiplayer session or Dedicated Server, even if the host/server does not have the mod installed.
+- **Multiplayer Editing Limitation**:
+  - Edits made by the host-side player are reflected normally.
+  - Edits made by other players are not reflected for the host or other players.
 ---
 
 ## Planned Features (Roadmap / Next: v1.0.1+)
