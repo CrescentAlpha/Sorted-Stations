@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Multiplayer-Client--Side%20Safe-success?style=flat-square" alt="Multiplayer Safe" />
 </p>
 
-**Sorted Stations** automatically organizes and sorts station names, train schedules, drone ports, and custom vehicle names in the management menus in **Satisfactory**.
+**Sorted Stations** automatically organizes and sorts station names, available destinations, and drone ports in the management menus in **Satisfactory**.
 
 Supports both standard **Unicode code-point order** and **Windows Natural Sort Order** (handling numbers logically as `Station 1`, `Station 2`, `Station 10`).
 
@@ -18,8 +18,8 @@ Supports both standard **Unicode code-point order** and **Windows Natural Sort O
 
 ## Features
 
-- **Train Schedule & Timetable Sorting**:
-  - Train stations and locomotive lists in the train menu and timetable are sorted alphabetically/naturally.
+- **Train Timetable Station Picker Sorting**:
+  - Available stations in the train timetable station picker are sorted alphabetically/naturally. (Your active route stop order is never modified).
 - **Drone Port Search Sorting**:
   - Available drone station destinations are organized and sorted for quick destination selection.
 - **Multi-Mode Sorting System**:
@@ -51,7 +51,7 @@ To customize sorting options:
 
 | Setting | Values | Default | Description |
 | :--- | :--- | :--- | :--- |
-| **Train Timetable** | None / Unicode / Natural | `Unicode` | Sort stations & trains in the timetable |
+| **Train Timetable** | None / Unicode / Natural | `Unicode` | Sort available stations in the timetable picker |
 | **Drone Destinations**| None / Unicode / Natural | `Unicode` | Sort destination ports in the drone UI |
 
 ---
