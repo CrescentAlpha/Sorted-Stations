@@ -27,7 +27,8 @@ public class SortedStations : ModuleRules
 			"Foliage",
 			"NetCore",
 			"GameplayTags",
-			"Json", "JsonUtilities"
+			"Json", "JsonUtilities",
+			"Projects", "ImageWrapper"
 		});
 
 		// Header stubs

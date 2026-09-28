@@ -72,3 +72,11 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+# Temporary and backup files
+*.zip
+desktop.ini
+*/desktop.ini
+*_BACKUP_*
+.claude/
+**/desktop.ini
+*_TEMP_BACKUP*
