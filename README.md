@@ -1,7 +1,7 @@
-﻿# Sorted Stations
+# Sorted Stations
 
 <p align="center">
-  <img src="Resources/icon.png" alt="Sorted Stations" width="256" />
+  <img src="https://raw.githubusercontent.com/CrescentAlpha/Sorted-Stations/v1.0.1/Resources/icon.png" alt="Sorted Stations" width="256" />
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 Supports both standard **Unicode code-point order** and intuitive **Natural Sort Order** (handling numbers logically as `Station 1`, `Station 2`, `Station 10`).
 
 <p align="center">
-  <img src="Resources/preview_map.png" alt="In-Game Map with Sorted Stations and Remote Edit Buttons" width="800" />
+  <img src="https://raw.githubusercontent.com/CrescentAlpha/Sorted-Stations/v1.0.1/Resources/preview_map.png" alt="In-Game Map with Sorted Stations and Remote Edit Buttons" width="800" />
 </p>
 
 ---
@@ -26,6 +26,10 @@ Supports both standard **Unicode code-point order** and intuitive **Natural Sort
 - **Edit Button (Pencil Icon)**: Adds a dedicated pencil icon next to each station, port, and vehicle in the in-game Map left-hand list.
 - **Dedicated Edit Dialog**: Remotely change names, customize marker colors, and insert quick tags without physically traveling to the object.
 - **Instant Re-Sorting**: Immediately re-sorts the Map list in real-time according to your active sort mode (Unicode / Natural) as soon as an object is renamed.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CrescentAlpha/Sorted-Stations/v1.0.1/Resources/preview_dialog.png" alt="Remote Renaming Dialog with Custom Tags and Color Picker" width="600" />
+</p>
 
 **Feature Support Matrix**:
 | Target | Remote Renaming | Color Customization | Map List Auto-Sort |
@@ -38,6 +42,10 @@ Supports both standard **Unicode code-point order** and intuitive **Natural Sort
 | **Drones** | ✅ Supported | ❌ Not Supported* | ✅ Supported |
 
 *(Note: Due to base game specifications, dynamic color customization cannot be supported for Train Stations, Truck Stations, Drone Stations, and Drones. The color section is automatically hidden in the dialog for these objects).*
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CrescentAlpha/Sorted-Stations/v1.0.1/Resources/preview_colors.png" alt="Custom Colored Vehicle Markers on Map" width="450" />
+</p>
 
 ### 2. Multi-List Automatic Sorting
 - **Map Left-Hand List**: Automatically organizes all stations, ports, and vehicles in the map management list.
@@ -87,6 +95,10 @@ If you ever want to reset all stored custom tags and vehicle marker colors back 
 > [!NOTE]
 > **Notice Regarding Existing Station & Vehicle Names**:  
 > Resetting only clears the registered custom tag list and vehicle marker colors. Tags already appended to station or vehicle names remain intact as part of their names and will not be deleted.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CrescentAlpha/Sorted-Stations/v1.0.1/Resources/preview_config.png" alt="Mod Configuration and Data Reset Menu" width="600" />
+</p>
 
 ---
 
