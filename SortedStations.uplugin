@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"Version": 2,
+	"Version": 1,
 	"VersionName": "1.0.1",
 	"FriendlyName": "Sorted Stations",
 	"Description": "Automatically sorts the names of stations, trains, drones, and vehicles.",
